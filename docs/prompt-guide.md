@@ -47,4 +47,4 @@ This prompt governs answers about holds, financial aid, registration blocks, imm
 
 ## A note on the data model
 
-The prompt references two families of objects. `RegulatoryAuthority`, `Regulation`, `RegulatoryCode`, and `RegulatoryCodeViolation` are standard Salesforce Public Sector Solutions objects, not Education Cloud objects. The `CompliancePolicy` and `AcademicTerm` families appear to be custom objects built for this institution. Confirm both the licensing and the exact field names against the target org before deploying. Details in `implementation-checklist.md`.
+The prompt references two families of objects. `RegulatoryAuthority`, `Regulation`, `RegulatoryCode`, and `RegulatoryCodeViolation` are standard Salesforce Public Sector Solutions objects, not Education Cloud objects. The `CompliancePolicy` family is part of Process Compliance Navigator, not Education Cloud.
